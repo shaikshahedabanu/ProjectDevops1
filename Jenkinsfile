@@ -15,6 +15,7 @@ pipeline {
       stage('stage2') {
             steps {
                 echo "this is stage2"
+                hostname
             }
         }
   }
