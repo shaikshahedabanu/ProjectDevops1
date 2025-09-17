@@ -19,6 +19,7 @@ pipeline {
             steps {
                 echo "this is maven stage"
                 sh 'mvn --version'
+                sh 'mvn clean deploy'
             }
         }
   }
